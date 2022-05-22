@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3B8E90283A6502007B9ED1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC74F3717985FCE00B182E7 /* IOKit.framework */; };
 		6170B2B71EF2F59F00CD0ADD /* VoltageShiftAnVMSR.h in Headers */ = {isa = PBXBuildFile; fileRef = 6170B2B61EF2F59F00CD0ADD /* VoltageShiftAnVMSR.h */; };
 		61C882131EFAFA77001DE175 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 61C882121EFAFA77001DE175 /* README.md */; };
 		AB1B031717E25FC000DD337E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1B031617E25FC000DD337E /* Foundation.framework */; };
-		AB1B032217E25FCE00DD337E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC74F3717985FCE00B182E7 /* IOKit.framework */; };
 		AB1B032317E25FFA00DD337E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABC74F2B1798553700B182E7 /* main.mm */; };
 		AB47DDBA17E2893200840FD1 /* VoltageShfitAnVMSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC74F0A17983B9900B182E7 /* VoltageShfitAnVMSR.cpp */; };
 		ABC74F0817983B9900B182E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC74F0617983B9900B182E7 /* InfoPlist.strings */; };
@@ -51,8 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1B032217E25FCE00DD337E /* IOKit.framework in Frameworks */,
 				AB1B031717E25FC000DD337E /* Foundation.framework in Frameworks */,
+				0A3B8E90283A6502007B9ED1 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +290,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				DEVELOPMENT_TEAM = 7698T37TAB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -421,18 +421,18 @@
 				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
 				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.24;
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				CURRENT_PROJECT_VERSION = 1.25;
+				DEVELOPMENT_TEAM = PJA9DJ6KCL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/VoltageShift-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "VoltageShiftAnVMSR/VoltageShift-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.24;
+				MARKETING_VERSION = 1.25;
 				MODULE_NAME = com.sicreative.VoltageShiftAnVMSR;
 				MODULE_VERSION = 1.23;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sicreative.${PRODUCT_NAME:rfc1034identifier}";
@@ -448,18 +448,18 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.24;
-				DEVELOPMENT_TEAM = 7698T37TAB;
+				CURRENT_PROJECT_VERSION = 1.25;
+				DEVELOPMENT_TEAM = PJA9DJ6KCL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoltageShiftAnVMSR/VoltageShift-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "VoltageShiftAnVMSR/VoltageShift-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MARKETING_VERSION = 1.24;
+				MARKETING_VERSION = 1.25;
 				MODULE_NAME = com.sicreative.VoltageShiftAnVMSR;
 				MODULE_VERSION = 1.23;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sicreative.${PRODUCT_NAME:rfc1034identifier}";
