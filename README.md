@@ -61,7 +61,7 @@ Show power type:
 
     ./voltageshift ischarging
 
-print 1 is AC power, 0 is UPS or built-battery.
+print 1 is AC power, 0 is UPS or built-in battery.
     
 Six types of voltage offsets are dispenible to change, however we only suggest undervolting the CPU and GPU only.
 
