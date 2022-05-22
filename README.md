@@ -58,6 +58,7 @@ You can continue to monitor the CPU frequency, power and temperture by using:
     ./voltageshift mon
 
 Show power type:
+
     ./voltageshift ischarging
 
 print 1 is AC power, 0 is UPS or built-battery.
